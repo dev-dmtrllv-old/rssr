@@ -1,0 +1,52 @@
+{
+	"compilerOptions": {
+		"allowUnreachableCode": false,
+		"allowArbitraryExtensions": true,
+		"alwaysStrict": true,
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"target": "ESNext",
+		"module": "CommonJS",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ES2015",
+			"ES2016",
+			"ES2017",
+			"ES2018",
+			"ES2019",
+			"ES2020",
+			"ES2021",
+			"ES2022",
+			"ES2023",
+			"ESNext"
+		],
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"exactOptionalPropertyTypes": true,
+		"jsx": "react-jsx",
+		"importsNotUsedAsValues": "remove",
+		"incremental": true,
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noStrictGenericChecks": false,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"removeComments": true,
+		"sourceMap": true,
+		"strict": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+		"useUnknownInCatchVariables": true
+	},
+	"include": [
+		"./src/**/*"
+	]
+}

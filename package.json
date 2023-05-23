@@ -1,18 +1,31 @@
 {
-  "name": "rssr",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.0.4",
-    "webpack": "^5.83.1"
-  }
+	"name": "rssr",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node scripts/dist/watch",
+		"build": "node scripts/dist/build",
+		"build-scripts": "tsc --project scripts/tsconfig.json",
+		"watch-scripts": "tsc --watch --project scripts/tsconfig.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.2.3",
+		"@types/react": "^18.2.6",
+		"@types/react-dom": "^18.2.4",
+		"@types/webpack": "^5.28.1",
+		"@types/webpack-env": "^1.18.0",
+		"@types/webpack-node-externals": "^3.0.0",
+		"fork-ts-checker-webpack-plugin": "^8.0.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"ts-loader": "^9.4.2",
+		"tsconfig-paths-webpack-plugin": "^4.0.1",
+		"typescript": "^5.0.4",
+		"webpack": "^5.83.1",
+		"webpack-node-externals": "^3.0.0"
+	}
 }
