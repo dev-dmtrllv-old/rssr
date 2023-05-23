@@ -15,3 +15,8 @@ type RunEnv = {
 };
 
 declare const env: DevEnv & RunEnv;
+
+declare type ImportedModule<T> = Promise<T & {
+	__IMPORT_PATH__: string;
+	__IMPORT_ORIGIN__: string;
+}>;

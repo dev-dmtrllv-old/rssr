@@ -9,7 +9,27 @@
 		"module": "ESNext",
 		"baseUrl": "./src",
 		"paths": {
-
+			"@app": [
+				"./app/index.tsx"
+			],
+			"@app/*": [
+				"./app/*"
+			],
+			"@server/*": [
+				"./server/*"
+			],
+			"@ssr": [
+				"./lib/ssr/index.ts"
+			],
+			"@ssr/*": [
+				"./lib/ssr/*"
+			],
+			"@utils": [
+				"./lib/utils/index.ts"
+			],
+			"@utils/*": [
+				"./lib/utils/*"
+			]
 		},
 		"lib": [
 			"DOM",

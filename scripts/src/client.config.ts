@@ -33,7 +33,10 @@ export const clientConfig = (entry: string, dev: boolean): Configuration =>
 			extensions: [".tsx", ".ts", ".jsx", ".js"],
 			plugins: [
 				new TsconfigPathsPlugin({})
-			]
+			],
+			fallback: {
+				buffer: require.resolve("buffer")
+			}
 		},
 		plugins: [
 			new DefinePlugin({
